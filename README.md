@@ -18,7 +18,5 @@ Its the task for the tonik org.
 Email: admin@example.com
 Password: Admin@123
 
-# Unit test case written only for save a book
-php artisan make:factory BookFactory --model=Book
+# Unit test case written only for save a book and adding a review as user
 php artisan test
-

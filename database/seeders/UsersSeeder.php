@@ -3,6 +3,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
 use App\Models\User;
+
 class UsersSeeder extends Seeder
 {
     /**
@@ -24,7 +25,7 @@ class UsersSeeder extends Seeder
                 'email'  =>'user@example.com',
                 'type' => 'user',
                 'password' => Hash::make('User@123')
-             ],
+            ],
         ];
         foreach ($usersData as $key => $val) {
             User::create($val);

@@ -18,5 +18,5 @@ Its the task for the tonik org.
 Email: admin@example.com
 Password: Admin@123
 
-# Unit test case written only for save a book and adding a review as user
+# Unit test case written only for Add a book as admin, Borrow a book as user and adding a review as user
 php artisan test

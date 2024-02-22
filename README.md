@@ -17,3 +17,8 @@ Its the task for the tonik org.
 # Defaut Admin Credentials
 Email: admin@example.com
 Password: Admin@123
+
+# Unit test case written only for save a book
+php artisan make:factory BookFactory --model=Book
+php artisan test
+

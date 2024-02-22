@@ -22,7 +22,7 @@ Password: Admin@123
 Email: user@example.com
 Password: User@123
 
-# if want to new user add via register
+# if want to add new user can done via registeration page
 
 # Unit test case written only for Add a book as admin, Borrow a book as user, Return a book as user and adding a review as user
 php artisan test

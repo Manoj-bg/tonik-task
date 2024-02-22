@@ -8,7 +8,7 @@
     <div class="navbar-nav">
     <a class="nav-item nav-link "href="{{route('home')}}">Dashboard <span class="sr-only"></span></a>
     <a class="nav-item nav-link " href="{{route('userviewbooks')}}">Book list</a>
-    <a class="nav-item nav-link " href="{{route('userviewbooks')}}">Book in hand</a>
+    <a class="nav-item nav-link " href="{{route('bookinhand')}}">Book in hand</a>
    
     </div>
   </div>

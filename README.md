@@ -1,7 +1,7 @@
 # tonik-task
 Its the task for the tonik org.
 # PHP Version >= 8
-# steps
+# Steps
 - composer install
 - npm install
 - make db and put name in .env file
@@ -10,19 +10,19 @@ Its the task for the tonik org.
 - npm run dev
 - php artisan serve
 
-# If DB Not seeded
+# If DB not seeded
 - php artisan db:seed --class=UsersSeeder
 - php artisan db:seed --class=BooksSeeder
 
-# Defaut Admin Credentials
+# Defaut admin credentials
 Email: admin@example.com
 Password: Admin@123
 
-# Defaut User Credentials
+# Defaut user credentials
 Email: user@example.com
 Password: User@123
 
-# if want to add new user can done via registeration page
+# If want to add new user can done via registeration page
 
-# Unit test case written only for Add a book as admin, Borrow a book as user, Return a book as user and adding a review as user
+# Test case written only for Add a book as admin, Borrow a book as user, Return a book as user and Adding a review as user
 php artisan test

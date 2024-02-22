@@ -18,5 +18,11 @@ Its the task for the tonik org.
 Email: admin@example.com
 Password: Admin@123
 
+# Defaut User Credentials
+Email: user@example.com
+Password: User@123
+
+# if want to new user add via register
+
 # Unit test case written only for Add a book as admin, Borrow a book as user, Return a book as user and adding a review as user
 php artisan test
